@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding : 0;
+    font-family:"Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('./ankita.jpg');
+    background-size: cover;
+    background-position:center;
+}
+
+.call{
+    width: 100%;
+    height: 100vh;
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+    justify-content: Center;
+    /* text-align: right; */
+    /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('./Anki.jpg'); */
+    
+}
+.Calculator{
+    background: rgba(8, 8, 8, 0.541);
+    padding: 40px;
+    border-radius:20px;
+
+}
+/* anku{ 
+    margin: 10px;
+    padding:24px;
+    width: 320px;
+    font-size:40px;
+
+}*/
+.Calculator form input{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    border: 0;
+    outline :0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+    box-shadow: -2px -2px 15px rgba(168, 159, 159, 0.1),5px 5px 15px rgba(255,255,255, 2);
+    background:transparent;
+    font-size:20px;
+    color:white;
+    cursor: pointer;
+    margin:10px;
+    border-radius: 20;
+}
+.Calculator form input:hover{
+    transform: scale(1.5);
+    /* background-color:lightgoldenrodyellow; */
+}
+form.display{
+    display: flex;
+    justify-content: flex-end;
+    margin:20px 0;
+    transform: none;
+}
+form.diplay input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    justify-content:left;
+    /* transform: none; */
+}
+form input.equal{
+    width:px;
+    background-color: rgb(216, 68, 15);
+}
+form input.Anki{
+    width: 310px;
+    text-align: right;
+    /* text-emphasis-color: black; */
+
+}
+
+form input.AJ{
+    background-color: rgb(148, 77, 77);
+    color: rgb(6, 255, 255);
+}
+
+form input.aj{
+    background-color: red;
+    color: rgb(0, 255, 255);
+}
+ form input.Aayu{
+    background-color:rgb(233, 113, 22);
+    color: rgb(9, 246, 242);
+ }
